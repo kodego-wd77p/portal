@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: blue; */
+    background-image: url('/images/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* dashboard logo inside the card */
+
+
+
+.app-logo{
+    width: auto;
+    height: 35px;
+    margin: 0 2px;
+}
+
+.user-home{
+    color: whitesmoke;
+    margin-left: 60px;
+}
+
+.position-home{
+    margin-left: 60px;
+}
+
+#home-con{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+
+.profile-box{
+    margin: 90px;
+    background-color: rgba(245, 245, 245, 0.903);
+    text-align: center;
+    padding: 15px 45px;
+    color: black;
+    position: relative;
+    border-radius: 30px;
+}
+
+.menu-icon{
+width: 22px;
+position: absolute;
+left: 40px;
+top: 20px;
+}
+
+.profile-pic{
+    margin-top: 40px;
+    width: 150px;
+    border-radius: 50%;
+    background: black;
+    padding: 6px;
+}
+
+.title-position{
+    text-decoration: italic;
+}
+
+.user-name{
+    /* position: relative; */
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+
+.home-logo{
+    width: 20%;
+    height: auto;
+    width: 30px;
+position: absolute;
+right: 40px;
+top: 20px;
+}
+
+#home-dash{
+    /* background-color: white; */
+    font-weight: bold;
+}
+
+#home-card{
+    padding: 15px;
+}
+
+.img-show{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* LOGIN */
+.col-md-5{
+    /* position: absolute;
+    top: 100px; */
+}
+
+.card{
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.903);
+
+}
+
+/* INDEX ACTIVITIES */
+.owner-name{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#btn-index{
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+}
+#btn-index:hover{
+    margin-bottom: 5px;
+    background-color: gray;
+    color: white;
+}
+
+#card-index{
+    background-color: rgba(245, 245, 245, 0.903);
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 .4rem .8rem #0005;
+}
+
+#table-index{
+    border-radius: 30px;    
+    background-color: #fff5;
+
+}
+
+table{
+    background-color: #fff5;
+    border-radius: 30px;
+
+}
+
+#table-whole{
+    background-color: #fff5;
+    border-radius: 30px;
+
+}
+
+.card-body{
+    /* position: relative;
+    top: 50px; */
+    /* margin-top: 5px; */
+}
+
+.header-table-teacher{
+    text-align: center;
+}
+
+.img-index{
+    border-radius: 7px;
+}
+
+/* BTN IN SUBMIT */
+#btn-create{
+    background-color: teal
+
+}
+#btn-create:hover{
+    background-color: rgb(0, 87, 87)
+
+}
+
+/* TABLE */
+
+.title-table{
+    background-color: skyblue;
+}
+
+/* .btn-create{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+} */
+
+
+/* HOME BLADE FILE */
+
+#btn-home{
+    background-color: black;
+    margin: 5px;
+}
+
+#btn-home:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* .head-card{} */
+
+
+/* SHOW BLADE */
+
+#back-show{
+    position: absolute;
+    left: 20rem;
+}
+
+#incomplete-show{
+    position: absolute;
+    left: 10rem;
+}
+
+
