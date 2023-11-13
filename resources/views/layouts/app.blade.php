@@ -19,7 +19,7 @@
 
     <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
 
-    
+
     <!-- Styles -->
    
     <!-- <link rel="stylesheet" type="text/css" href="{{ url('/css/app.css') }}"/> -->
@@ -71,10 +71,10 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
-                                </a>
+                                </a> -->
 
 
                                 <!-- <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
